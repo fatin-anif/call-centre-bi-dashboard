@@ -1,10 +1,10 @@
 # call-centre-bi-dashboard
 Excel BI project analysing call centre performance, customer experience, and operational metrics.
-📊 Call Centre Customer Experience BI Dashboard
+**Call Centre Customer Experience BI Dashboard**
 
 Excel • Power Query • Data Model • PivotCharts • DAX-style Measures
 
-🔍 Project Overview
+**Project Overview**
 
 This project analyses call-centre performance and customer experience using a fully interactive BI dashboard built in Microsoft Excel.
 It simulates a real operational environment with datasets for Calls, Agents, Customer Feedback, and Workforce Forecasting.
@@ -23,7 +23,7 @@ Queue-level and Agent-level performance
 
 Forecast vs Actual call volume
 
-🛠 Tools & Techniques Used
+**Tools & Techniques Used**
 
 Excel Power Query — data cleaning & transformation
 
@@ -37,7 +37,7 @@ Interactive Slicers — filter by Queue, AgentID, Date, Abandoned
 
 Dashboard Design — clean layout, KPIs, charts, filters
 
-📁 Data Sources (included in repo)
+**Data Sources (included in repo)**
 
 calls.xlsx
 
@@ -51,7 +51,8 @@ Final Dashboard .xlsx
 
 These datasets were generated to mimic real call-centre structures.
 
-⭐ Key Measures Created
+**Key Measures Created**
+
 Avg Wait Time := AVERAGE(Calls[WaitTime])
 
 Avg Handle Time := AVERAGE(Calls[HandleTime])
@@ -64,8 +65,9 @@ DIVIDE(
 
 Total Calls := COUNTROWS(Calls)
 
-📈 Dashboard Features
-✔ KPIs
+**Dashboard Features**
+
+**KPIs**
 
 Total Calls
 
@@ -75,7 +77,7 @@ Avg Handle Time
 
 Abandon Rate
 
-✔ Visuals
+**Visuals**
 
 Calls by Queue
 
@@ -83,7 +85,7 @@ Avg Wait Time by Queue
 
 CSAT by Queue
 
-✔ Filters
+**Filters**
 
 Queue
 
@@ -93,7 +95,7 @@ Abandoned (Y/N)
 
 Date
 
-🎯 Skills Demonstrated
+**Skills Demonstrated**
 
 Business Intelligence reporting
 
@@ -111,6 +113,6 @@ Dashboard UI/UX design
 
 Excel BI workflow end-to-end
 
-📬 Contact
+**Contact**
 
 Feel free to reach out for collaboration or improvement ideas.

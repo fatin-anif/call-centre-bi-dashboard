@@ -23,6 +23,7 @@ Queue-level and Agent-level performance
 
 Forecast vs Actual call volume
 
+
 **Tools & Techniques Used**
 
 Excel Power Query — data cleaning & transformation
@@ -36,6 +37,7 @@ PivotTables & PivotCharts — KPIs, trend analysis, queue insights
 Interactive Slicers — filter by Queue, AgentID, Date, Abandoned
 
 Dashboard Design — clean layout, KPIs, charts, filters
+
 
 **Data Sources (included in repo)**
 
@@ -51,6 +53,7 @@ Final Dashboard .xlsx
 
 These datasets were generated to mimic real call-centre structures.
 
+
 **Key Measures Created**
 
 Avg Wait Time := AVERAGE(Calls[WaitTime])
@@ -65,6 +68,7 @@ DIVIDE(
 
 Total Calls := COUNTROWS(Calls)
 
+
 **Dashboard Features**
 
 **KPIs**
@@ -77,6 +81,7 @@ Avg Handle Time
 
 Abandon Rate
 
+
 **Visuals**
 
 Calls by Queue
@@ -84,6 +89,7 @@ Calls by Queue
 Avg Wait Time by Queue
 
 CSAT by Queue
+
 
 **Filters**
 
@@ -94,6 +100,7 @@ AgentID
 Abandoned (Y/N)
 
 Date
+
 
 **Skills Demonstrated**
 
@@ -113,6 +120,6 @@ Dashboard UI/UX design
 
 Excel BI workflow end-to-end
 
-**Contact**
 
+**Contact**
 Feel free to reach out for collaboration or improvement ideas.
